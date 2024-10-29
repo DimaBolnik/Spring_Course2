@@ -34,18 +34,23 @@
       <artifactId>javax.annotation-api</artifactId>
       <version>1.3.2</version>
     </dependency>
-    <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-core &ndash;&gt;-->
-    <!--    <dependency>-->
-    <!--      <groupId>org.springframework</groupId>-->
-    <!--      <artifactId>spring-core</artifactId>-->
-    <!--      <version>5.2.8.RELEASE</version>-->
-    <!--    </dependency>-->
-    <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-beans &ndash;&gt;-->
-    <!--    <dependency>-->
-    <!--      <groupId>org.springframework</groupId>-->
-    <!--      <artifactId>spring-beans</artifactId>-->
-    <!--      <version>5.2.8.RELEASE</version>-->
-    <!--    </dependency>-->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.7</version>
+    </dependency>
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-core &ndash;&gt;-->
+<!--        <dependency>-->
+<!--          <groupId>org.springframework</groupId>-->
+<!--          <artifactId>spring-core</artifactId>-->
+<!--          <version>5.2.8.RELEASE</version>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+<!--        <dependency>-->
+<!--          <groupId>org.springframework</groupId>-->
+<!--          <artifactId>spring-beans</artifactId>-->
+<!--          <version>5.2.8.RELEASE</version>-->
+<!--        </dependency>-->
 
   </dependencies>
 </project>
