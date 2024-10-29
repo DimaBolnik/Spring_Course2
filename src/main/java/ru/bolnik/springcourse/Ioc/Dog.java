@@ -1,5 +1,6 @@
 package ru.bolnik.springcourse.Ioc;
 
+
 public class Dog implements Pet {
     public Dog() {
         System.out.println("Created bean Dog");

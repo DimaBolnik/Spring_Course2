@@ -1,5 +1,8 @@
 package ru.bolnik.springcourse.Ioc;
 
+import org.springframework.stereotype.Component;
+
+@Component("catBean")
 public class Cat implements Pet{
 
     public Cat() {

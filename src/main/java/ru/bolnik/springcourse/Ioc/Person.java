@@ -1,18 +1,25 @@
 package ru.bolnik.springcourse.Ioc;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("personBean")
 public class Person {
     private String surname;
     private int age;
+    @Autowired
     private Pet pet;
 
     public Person() {
         System.out.println("Person constructor not args");
     }
 
-    public Person(Pet pet) {
-        System.out.println("Person bean is created");
-        this.pet = pet;
-    }
+//    @Autowired
+//    public Person(Pet pet) {
+//        System.out.println("Person bean is created");
+//        this.pet = pet;
+//    }
 
     public String getSurname() {
         return surname;
@@ -36,6 +43,7 @@ public class Person {
         return pet;
     }
 
+//    @Autowired
     public void setPet(Pet pet) {
         System.out.println("Person pet is set");
         this.pet = pet;
