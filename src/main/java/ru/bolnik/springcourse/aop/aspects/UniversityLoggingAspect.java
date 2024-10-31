@@ -42,7 +42,7 @@ public class UniversityLoggingAspect {
 
     @After("execution(* getStudents())")
     public void afterGetStudentsLoggingAdvice(){
-        System.out.println("afterGetStudentsLoggingAdvice : логгируем нормальное" +
+        System.out.println("afterGetStudentsLoggingAdvice : логируем нормальное" +
                            " окончаний работы метода или выброс исключения");
     }
 }
