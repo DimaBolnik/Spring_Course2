@@ -40,17 +40,44 @@
       <version>1.9.7</version>
     </dependency>
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-core &ndash;&gt;-->
-<!--        <dependency>-->
-<!--          <groupId>org.springframework</groupId>-->
-<!--          <artifactId>spring-core</artifactId>-->
-<!--          <version>5.2.8.RELEASE</version>-->
-<!--        </dependency>-->
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+          <version>5.2.8.RELEASE</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
-<!--        <dependency>-->
-<!--          <groupId>org.springframework</groupId>-->
-<!--          <artifactId>spring-beans</artifactId>-->
-<!--          <version>5.2.8.RELEASE</version>-->
-<!--        </dependency>-->
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-beans</artifactId>
+          <version>5.2.8.RELEASE</version>
+        </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.hibernate.validator</groupId>-->
+<!--      <artifactId>hibernate-validator</artifactId>-->
+<!--      <version>6.1.6.Final</version>-->
+<!--    </dependency>-->
+
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.2</version>
+    </dependency>
+
+    <!--ORM Related dependencies -->
+
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.4.28.Final</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hibernate.common</groupId>
+      <artifactId>hibernate-commons-annotations</artifactId>
+      <version>5.1.0.Final</version>
+    </dependency>
 
   </dependencies>
 </project>
